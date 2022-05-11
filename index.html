@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="">
+        <div class="container">
+          <aside class="aside">
+            <div class="">
+                <div class="">
+                    <img src="img/IMG-.jpg" alt="" class="img">
+                </div>
+                <div class="soft">
+                    <p class="name">UGWU NZUBECHUKWU CAMILLUS</p>
+                    <p class="sof">Software Developer</p>
+                </div>
+                <hr>
+                <div class="contact">
+                    <h3 class="cont">CONTACT INFO</h3>
+                    <div class="tele">
+                        <img src="img/telephone.png" alt="telephone" class="con">
+                        <p class="info">+2349035683739</p>
+                    </div>
+                    <div class="tele">
+                        <img src="img/gmail.png" alt="gmail" class="con">
+                        <p class="info">ugwunzube@gmail.com</p>
+                    </div>
+                </div>
+                <div class="education">
+                   <h3 class="edu">EDUCATION</h3>
+                   <div class="det">
+                       <h4 class="pri">Grade School</h4>
+                       <p class="yr">2006-2011</p>
+                       <p class="sch">NAOWA Group Schools, Enugu State, Nigeria.</p>
+                   </div>
+                   <div class="det">
+                       <h4 class="pri">High School</h4>
+                       <p class="yr">2011-2017</p>
+                       <p class="sch">Marist Brothers Juniorate, Uturu, Abia State, Nigeria.</p>
+                   </div>
+                   <div class="det">
+                       <h4 class="pri">University</h4>
+                       <p class="yr">2018-present</p>
+                       <p class="sch">University Of Nigeria,Nsukka</p>
+                   </div>
+                </div>
+                <div class="lang">
+                    <h3 class="lan">LANGUAGE(S)</h3>
+                    <div class="en">
+                        <p class="eng">English</p>
+                    </div>
+                </div>
+            </div>
+         </aside>
+
+        <section class="section">
+          <div class="">
+           <div class="">
+               <h3 class="pro"><span class="profile">PROFILE</span></h3>
+               <div class="prof">
+                   <p class="na">
+                       Obtain a challenging IT Internship where I can use my strong educational background and specialized training to add value to the firm.
+                       Proficiency in range of computing systems, languages and associated tools. Astonishing problem solving skills, communication skills and a team player.
+                   </p>
+               </div>
+           </div>
+           <div class="projects">
+               <h3 class="jects"><span class="jects">PROJECTS</span></h3>
+               <div class="hi">
+                   <h4 class="hire">Hire Purchase</h4>
+                   <p class="ire">
+                       Worked on a website for the month of February - April, Used the foundation framework along with HTML5, CSS3 and javascript to build the website.
+                       The code was written from scratch and was made to be compatible within all browsers. Used Github to share project with other team members.
+                   </p>
+               </div>
+           </div>
+           <div class="experince">
+               <h3 class="exp">EXPERIENCE</h3>
+               <div class="og">
+                   <h4 class="ogw">OGWUGO Limited</h4>
+                   <h5 class="fr">Front-end Developer Intern</h5>
+                   <ul class="list">
+                       <li>Developed using CSS, Html and javascripts to enhance functionality and user experience on web pages.</li>
+                       <li>Worked with senior developer to write code from scratch</li>
+                       <li>Parcipated on weekly Tech team meetings to discuss current and failure projects and strategies on how to produce efficient work.</li>
+                   </ul>
+               </div>
+           </div>    
+           <div class="skills">
+               <h3 class="sk">PROFESSIONAL SKILLS</h3>
+               <div class="css">
+                   <p class="ht">HTML</p>
+               </div>
+               <div class="css">
+                   <p class="ht">CSS</p>
+               </div>
+               <div class="css">
+                   <p class="ht">Javascript</p>
+               </div>
+           </div>
+         </div> 
+        </div>
+      </section>
+
+      <div class="photo">
+          <h3 class="ph">PHOTOS</h3>
+      </div>
+      <div class="slideshow-container">
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 5</div>
+        <div class="im">
+         <img src="img/me.jpg" class="me">
+        </div>
+      </div>
+    
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 5</div>
+        <div class="im">
+         <img src="img/IMG-202.jpg" class="me">
+        </div>
+      </div>
+    
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 5</div>
+        <div class="im">
+         <img src="img/IMG-2.jpg" class="me">
+        </div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">4 / 5</div>
+        <div class="im">
+         <img src="img/im.jpg" class="me">
+        </div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">5 / 5</div>
+        <div class="im">
+         <img src="img/IMG-2022.jpg" class="me">
+        </div>
+      </div>
+    
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+      <span class="dot" onclick="currentSlide(5)"></span>
+    </div>
+    <script>
+       let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+    </script>
+</body>
+</html>
