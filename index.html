@@ -74,7 +74,7 @@
                <div class="hi">
                    <h4 class="hire">Hire Purchase</h4>
                    <p class="ire">
-                       Worked on a website for the month of February - April, Used the foundation framework along with HTML5, CSS3 and javascript to build the website.
+                       Worked on a website for the month of February - April, Used Next.js and Tailwind css to build the website.
                        The code was written from scratch and was made to be compatible within all browsers. Used Github to share project with other team members.
                    </p>
                </div>
@@ -102,87 +102,18 @@
                <div class="css">
                    <p class="ht">Javascript</p>
                </div>
+               <div class="css">
+                <p class="ht">React.js</p>
+              </div>
+            <div class="css">
+              <p class="ht">Next.js</p>
+            </div>
+            <div class="css">
+              <p class="ht">Tailwind CSS</p>
+           </div>
            </div>
          </div> 
         </div>
       </section>
-
-      <div class="photo">
-          <h3 class="ph">PHOTOS</h3>
-      </div>
-      <div class="slideshow-container">
-      <div class="mySlides fade">
-        <div class="numbertext">1 / 5</div>
-        <div class="im">
-         <img src="img/me.jpg" class="me">
-        </div>
-      </div>
-    
-      <div class="mySlides fade">
-        <div class="numbertext">2 / 5</div>
-        <div class="im">
-         <img src="img/IMG-202.jpg" class="me">
-        </div>
-      </div>
-    
-      <div class="mySlides fade">
-        <div class="numbertext">3 / 5</div>
-        <div class="im">
-         <img src="img/IMG-2.jpg" class="me">
-        </div>
-      </div>
-      <div class="mySlides fade">
-        <div class="numbertext">4 / 5</div>
-        <div class="im">
-         <img src="img/im.jpg" class="me">
-        </div>
-      </div>
-      <div class="mySlides fade">
-        <div class="numbertext">5 / 5</div>
-        <div class="im">
-         <img src="img/IMG-2022.jpg" class="me">
-        </div>
-      </div>
-    
-      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-      <a class="next" onclick="plusSlides(1)">&#10095;</a>
-    </div>
-    <br>
-    
-    <div style="text-align:center">
-      <span class="dot" onclick="currentSlide(1)"></span>
-      <span class="dot" onclick="currentSlide(2)"></span>
-      <span class="dot" onclick="currentSlide(3)"></span>
-      <span class="dot" onclick="currentSlide(4)"></span>
-      <span class="dot" onclick="currentSlide(5)"></span>
-    </div>
-    <script>
-       let slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-}
-    </script>
 </body>
 </html>
